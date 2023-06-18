@@ -3,21 +3,31 @@
 #include <stdio.h>
 
 /**
- * main - Determines if a number is positive, negative or zero.
- *
- * Reture: Always 0 (success)
+ * main - Entry point
+ * Return: Always return 0 (success)
  */
+
 int main(void)
+
 {
+
 int n;
 
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2; 
+
 if (n > 0)
-printf("%d is positive\n", n);
+{
+printf("%d positive\n", n);
+}
 else if (n == 0)
+{
 printf("%d is zero\n", n);
+}
 else
-printf("%d is negative\n", n);
+{
+printf("%d is nagative\n", n);
+}
 return (0);
+
 }
