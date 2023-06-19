@@ -7,7 +7,7 @@
  * Return: Always 1 (success)
  */
 
-int mail(void)
+int main(void)
 
 {
 
