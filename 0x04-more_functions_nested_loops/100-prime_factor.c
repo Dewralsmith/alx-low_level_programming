@@ -15,6 +15,6 @@ for (i = 3; i < 782849; i = i + 2)
 while ((n % i == 0) && (n != i))
 n = n / i;
 }
-printf("%iu\n", n);
+printf("%lu\n", n);
 return (0);
 }
