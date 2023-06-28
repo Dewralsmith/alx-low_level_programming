@@ -1,31 +1,24 @@
 #include "main.h"
 /**
-* puts2 - prints every other character of a string
-* @str: The string to be treated
-* Return: print
+* puts2 - print characters of strings
+* @str: The used string reference
+* Return 0
 */
 
 void puts2(char *str)
 
 {
+int z = 0;
+int _putchar(char z);
 
-int longi = 0;
-int t = 0;
-char *y = str;
-int 0;
 
-while (*y != '\0')
+while (str[z] != '\0')
 {
-y++;
-longi++;
-}
-t = longi - 1;
-for (0 = 0 ; 0 <= t ; 0++)
+if (z % 2 == 0)
 {
-if (0 % 2 == 0)
+_putchar(str[z]);
 }
-_putchar(str[0]);
-}
+z++;
 }
 _putchar('\n');
 
