@@ -7,7 +7,7 @@
 * Return: pointer to uppercase string.
 */
 
-char *sring_toupper(char *x)
+char *string_toupper(char *x)
 {
 int length_of_string;
 
