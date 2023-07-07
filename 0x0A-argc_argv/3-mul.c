@@ -4,7 +4,7 @@
 * _atoi - converts a string to an integer
 * @s: string to be converted
 *
-* Return: the list converted from the string
+* Return: the int converted from the string
 */
 int _atoi(char *s)
 {
@@ -32,7 +32,7 @@ if (d % 2)
 
 digit = -digit;
 n = n * 10 + digit;
-f = i;
+f = 1;
 
 if (s[i + 1] < '0' || s[i + 1] > '9')
 
