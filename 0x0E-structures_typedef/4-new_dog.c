@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 
 int i;
-i =0;
+i = 0;
 
 while (s[i] != '\0')
 {
@@ -73,7 +73,7 @@ dog->name = malloc(sizeof(char) * (len1 + 1));
 if (dog->name == NULL)
 {
 free(dog);
-return(NULL);
+return (NULL);
 }
 dog->owner = malloc(sizeof(char) * (len2 + 1));
 if (dog->owner == NULL)
