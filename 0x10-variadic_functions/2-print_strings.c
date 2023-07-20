@@ -8,7 +8,7 @@
 *@n: The number of strings passed to the function.
 * @...: A variable number of strings to be printed.
 *
-* Description: If separator is NULL, it is not printed. 
+* Description: If separator is NULL, it is not printed.
 * If one of the string if NULL, (nil) is printed instead.
 */
 
@@ -21,7 +21,7 @@ unsigned int index;
 
 va_start(strings, n);
 
-for (index = 0, index < n; index++)
+for (index = 0; index < n; index++)
 {
 str = va_arg(strings, char *);
 
@@ -30,7 +30,7 @@ printf("(nil)");
 else
 printf("%s", str);
 
-if (index != (n -1) && separator != NULL)
+if (index != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
 
