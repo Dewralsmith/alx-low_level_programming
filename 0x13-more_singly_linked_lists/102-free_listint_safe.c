@@ -24,6 +24,12 @@ temp = (*h)->next;
 free(*h);
 *h = temp;
 len++;
+}
+else
+{
+free(*h);
+*h = NULL;
+len++;
 break;
 }
 }
