@@ -14,9 +14,9 @@ size_t num = 0;
 while (h)
 {
 printf("%d\n", h->n);
-num++;
+nodes++;
 h = h->next;
 }
 
-return (num);
+return (nodes);
 }
